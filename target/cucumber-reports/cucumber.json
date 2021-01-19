@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5209000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "URL \"url\" is provided",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefs.LoginStep.url_is_provided(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-19T07:19:38.521Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5164000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Context.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "",
+        "description": "",
+        "id": "as-a-valid-user-of-applicaiton;",
+        "after": [
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Context.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 350000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "for application login username \"techfiosdemo@gmail.com\" and password \"abc123\" is supplied",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"techfiosdemo@gmail.com\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"abc123\"",
+                  "offset": 69
+                }
+              ],
+              "location": "stepDefs.LoginStep.for_application_login_username_and_password_is_supplied(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2379000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefs.LoginStep.click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the login page",
+            "match": {
+              "location": "stepDefs.LoginStep.i_enter_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a valid user of applicaiton",
+    "description": "I want to provide username and password\nSo that I can login to the homepage",
+    "id": "as-a-valid-user-of-applicaiton",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": []
+  }
+]
